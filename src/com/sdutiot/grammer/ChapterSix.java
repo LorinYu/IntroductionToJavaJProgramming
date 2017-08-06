@@ -3,7 +3,7 @@ package com.sdutiot.grammer;
 public class ChapterSix {
 
   public static void main(String[] args) {
-    
+    function3();
     //int i = linerSearch(list, 4);  
     //System.out.println(i);
   }
@@ -39,5 +39,18 @@ public class ChapterSix {
     }
   }
   */
+  public void function2() {
+    double[] numbers = {6.0, 4.4, 1.9, 2.9, 3.4};
+    java.util.Arrays.sort(numbers);
+    for (double element:numbers) {
+      System.out.println(element);
+    }
+  } 
   
+  public static void function3() {
+    int[][] matrix = new int[5][5];
+    matrix[2][1] = 4;
+    System.out.println(matrix.length);
+    System.out.println(matrix[1].length);
+  }
 }
