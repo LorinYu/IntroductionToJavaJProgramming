@@ -12,4 +12,20 @@ public class ChapterSeven {
     System.out.println("the time since Jan 1,1970 is " + date.getTime() + " milliseconds");
     System.out.println(date.toString());
   }
+ 
+  
+  
+  public class Circle3 {
+    private double radius = 1.0;
+    
+    public Circle3(double newRadius) {
+      radius = newRadius;
+    }
+    
+    public double getRadius() {
+      return radius;
+    }
+  }
+  
+  
 }
